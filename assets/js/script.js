@@ -37,7 +37,7 @@ function startIntroTyping() {
 function typerStartTyping(typer) {
   typer.reset();
 
-  let text = ['Khown for Discord bot dev using Javascript, CSS, Node.js and gaming ofc xd'];
+  let text = ['known for Discord bot dev using Javascript, CSS, Node.js and gaming ofc xd see my work by going on my github page!'];
 
   text.forEach(function (language, index) {
     typer.move(null);

@@ -75,7 +75,6 @@ function switchScreen() {
     let fullPath = `assets/audio/${audioName}.mp3`;
 
     let audioElement = document.createElement('audio');
-    audioElement.volume = 72.2;
     audioElement.setAttribute('src', fullPath);
     audioElement.style.display = 'none';
 

@@ -12,7 +12,7 @@ function openSocial(type) {
     case 'github':
       url = 'https://github.com/trazhub';
       break;
-    case 'instagram':
+    case 'insta':
       url = 'https://instagram.com/trazhub';
       break;
   }

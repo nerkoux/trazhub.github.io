@@ -12,7 +12,7 @@ function openSocial(type) {
     case 'github':
       url = 'https://github.com/trazhub';
       break;
-    case 'instagram':
+    case 'insta':
       url = 'https://instagram.com/trazhub';
       break;
   }
@@ -75,6 +75,7 @@ function switchScreen() {
     let fullPath = `assets/audio/${audioName}.mp3`;
 
     let audioElement = document.createElement('audio');
+    audioElement.volume = 0.05;
     audioElement.setAttribute('src', fullPath);
     audioElement.style.display = 'none';
 
